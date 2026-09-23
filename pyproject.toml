@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "batch-file-renamer"
+version = "1.0.0"
+description = "Preview, apply, and undo safe batch file renaming from the command line."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "GitHub Content Pack Contributor" }]
+dependencies = []
+keywords = ["python", "cli", "file-management", "automation", "beginner-friendly"]
+
+[project.scripts]
+batch-rename = "batch_file_renamer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,11 @@
+{
+  "name": "batch-file-renamer",
+  "description": "Preview, apply, and undo safe batch file renaming from the command line.",
+  "topics": [
+    "python",
+    "cli",
+    "file-management",
+    "automation",
+    "beginner-friendly"
+  ]
+}
